@@ -34,18 +34,6 @@ Go to the [Releases](../../releases) page and download the latest `MeleeTracker.
 
 `melee_tracker.db` (your match history) and your replay files never leave your computer. The only network call the app makes is to Slippi's public API to fetch rank info for connect codes you've played against.
 
-## Building from source
-
-If you want to build the `.exe` yourself instead of using a Release:
-
-```
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-pyinstaller melee_tracker.spec
-```
-
-The resulting `MeleeTracker.exe` will be in `dist\`.
 
 ## Issues / feedback
 
@@ -86,16 +74,6 @@ Andá a la página de [Releases](../../releases) y descargá el `MeleeTracker.ex
 
 `melee_tracker.db` (tu historial de partidas) y tus archivos de replay nunca salen de tu computadora. La única conexión a internet que hace la app es a la API pública de Slippi, para consultar el rango de los connect codes contra los que jugaste.
 
-### Compilar desde el código fuente
-
-Si preferís compilar el `.exe` vos mismo en vez de usar un Release:
-
-```
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-pyinstaller melee_tracker.spec
-```
 
 El `MeleeTracker.exe` resultante va a quedar en `dist\`.
 
